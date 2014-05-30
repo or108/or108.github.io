@@ -4,15 +4,90 @@
   <subtitle><![CDATA[未知]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yuancheng.me/"/>
-  <updated>2014-05-30T13:47:18.644Z</updated>
+  <updated>2014-05-30T14:54:42.159Z</updated>
   <id>http://yuancheng.me/</id>
   
   <author>
-    <name><![CDATA[参天]]></name>
+    <name><![CDATA[YuanCheng]]></name>
     
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[My First Post in This Blog]]></title>
+    <link href="http://yuancheng.me/2014/05/30/my-first-post-in-this-blog/"/>
+    <id>http://yuancheng.me/2014/05/30/my-first-post-in-this-blog/</id>
+    <published>2014-05-30T14:30:03.000Z</published>
+    <updated>2014-05-30T14:54:26.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="TEST">TEST</h1>
+<p>MY FIRST POST IN THIS IN THIS BLOG.</p>
+<p>-LIST1<br>-LIST2</p>
+<p>1.LIST3<br>2.LIST4</p>
+<h2 id="WEB_PITCURE">WEB_PITCURE</h2>
+<p><img src="http://img3.douban.com/view/photo/photo/public/p2185337045.jpg" alt=""></p>
+<h2 id="LOCAL_PICTURE">LOCAL_PICTURE</h2>
+<p><img src="" alt=""></p>
+<table>
+<thead>
+<tr>
+<th>dog</th>
+<th>bird</th>
+<th>cat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>foo</td>
+<td>foo</td>
+<td>foo</td>
+</tr>
+<tr>
+<td>bar</td>
+<td>bar</td>
+<td>bar</td>
+</tr>
+<tr>
+<td>baz</td>
+<td>baz</td>
+<td>baz</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Tables</th>
+<th style="text-align:center">Are</th>
+<th style="text-align:right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>col 3 is</td>
+<td style="text-align:center">right-aligned</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td>zebra stripes</td>
+<td style="text-align:center">are neat</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>一个人</strong>；<em>要像一支队伍</em></p>
+</blockquote>
+<p>！[]（file:/source/image/未命名.jpg）</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
