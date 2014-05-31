@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[未名]]></title>
-  <subtitle><![CDATA[未知]]></subtitle>
+  <title><![CDATA[YuanCheng's Blog]]></title>
+  <subtitle><![CDATA[一朝误入此门中，从此红尘了如空]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yuancheng.me/"/>
-  <updated>2014-05-31T03:24:04.284Z</updated>
+  <updated>2014-05-31T09:58:28.650Z</updated>
   <id>http://yuancheng.me/</id>
   
   <author>
@@ -19,15 +19,13 @@
     <link href="http://yuancheng.me/2014/05/30/my-first-post-in-this-blog/"/>
     <id>http://yuancheng.me/2014/05/30/my-first-post-in-this-blog/</id>
     <published>2014-05-30T14:30:03.000Z</published>
-    <updated>2014-05-31T03:23:12.000Z</updated>
+    <updated>2014-05-31T09:57:07.000Z</updated>
     <content type="html"><![CDATA[<h1 id="TEST">TEST</h1>
 <p>MY FIRST POST IN THIS IN THIS BLOG.</p>
 <p>-LIST1<br>-LIST2</p>
 <p>1.LIST3<br>2.LIST4</p>
 <h3 id="WEB_PITCURE">WEB_PITCURE</h3>
 <p><img src="http://img3.douban.com/view/photo/photo/public/p2185337045.jpg" alt=""></p>
-<h3 id="LOCAL_PICTURE">LOCAL_PICTURE</h3>
-<p><img src="" alt=""></p>
 <table>
 <thead>
 <tr>
@@ -81,12 +79,14 @@
 </tbody>
 </table>
 <blockquote>
-<p>一个人要像一支队伍</p>
-<p>人生，要活得潇洒，豪爽和侠义。男人的价值不是金钱、名誉， 比起女人来更由“人生哲学”来决定。<br>藤泽秀行</p>
+<p>人生，要活得潇洒，豪爽和侠义。<br>男人的价值不是金钱、名誉， 比起女人来更由“人生哲学”来决定。</p>
+<p>藤泽秀行</p>
 </blockquote>
 <p><strong>你好</strong><br><em>晚安</em></p>
 ]]></content>
     
+    
+      <category term="Unclassified" scheme="http://yuancheng.me/categories/Unclassified/"/>
     
   </entry>
   
