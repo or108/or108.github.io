@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[YuanCheng's Blog]]></title>
-  <subtitle><![CDATA[一朝误入此门中，从此红尘了如空]]></subtitle>
+  <title><![CDATA[Hexo]]></title>
+  
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yuancheng.me/"/>
-  <updated>2014-05-31T15:00:05.692Z</updated>
-  <id>http://yuancheng.me/</id>
+  <link href="http://yoursite.com/"/>
+  <updated>2014-08-27T03:29:20.520Z</updated>
+  <id>http://yoursite.com/</id>
   
   <author>
-    <name><![CDATA[YuanCheng]]></name>
+    <name><![CDATA[John Doe]]></name>
     
   </author>
   
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[毕业生]]></title>
-    <link href="http://yuancheng.me/2014/05/31/%E6%AF%95%E4%B8%9A%E7%94%9F/"/>
-    <id>http://yuancheng.me/2014/05/31/毕业生/</id>
+    <link href="http://yoursite.com/2014/05/31/%E6%AF%95%E4%B8%9A%E7%94%9F/"/>
+    <id>http://yoursite.com/2014/05/31/毕业生/</id>
     <published>2014-05-31T12:03:46.000Z</published>
     <updated>2014-05-31T12:15:37.000Z</updated>
     <content type="html"><![CDATA[<h1 id="毕业生">毕业生</h1>
@@ -51,8 +51,8 @@
   
   <entry>
     <title><![CDATA[My First Post in This Blog]]></title>
-    <link href="http://yuancheng.me/2014/05/30/my-first-post-in-this-blog/"/>
-    <id>http://yuancheng.me/2014/05/30/my-first-post-in-this-blog/</id>
+    <link href="http://yoursite.com/2014/05/30/my-first-post-in-this-blog/"/>
+    <id>http://yoursite.com/2014/05/30/my-first-post-in-this-blog/</id>
     <published>2014-05-30T14:30:03.000Z</published>
     <updated>2014-05-31T09:57:07.000Z</updated>
     <content type="html"><![CDATA[<h1 id="TEST">TEST</h1>
@@ -121,42 +121,34 @@
 ]]></content>
     
     
-      <category term="Unclassified" scheme="http://yuancheng.me/categories/Unclassified/"/>
+      <category term="Unclassified" scheme="http://yoursite.com/categories/Unclassified/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://yuancheng.me/2014/05/27/hello-world/"/>
-    <id>http://yuancheng.me/2014/05/27/hello-world/</id>
+    <link href="http://yoursite.com/2014/05/27/hello-world/"/>
+    <id>http://yoursite.com/2014/05/27/hello-world/</id>
     <published>2014-05-27T07:31:19.000Z</published>
-    <updated>2014-05-27T07:31:19.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank">trobuleshooting</a> or you can ask me on <a href="https://github.com/tommy351/hexo/issues" target="_blank">GitHub</a>.</p>
+    <updated>2014-08-27T03:26:15.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick_Start">Quick Start</h2>
 <h3 id="Create_a_new_post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>$ hexo new <span class="string">"My New Post"</span>
-</pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank">Writing</a></p>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run_server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>$ hexo server
-</pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank">Server</a></p>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
 <h3 id="Generate_static_files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>$ hexo generate
-</pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank">Generating</a></p>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>$ hexo deploy
-</pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank">Deployment</a></p>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 ]]></content>
     
     
