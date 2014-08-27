@@ -1,0 +1,108 @@
+<h1 id="Pacman">Pacman</h1>
+<p>Pacman is a flat and responsive design theme for <a href="http://zespia.tw/hexo/">Hexo</a>.</p>
+<p><a href="http://A-limon.github.io/pacman">Demo</a> || <a href="http://yangjian.me">Alimon’s Blog</a></p>
+<p>中文说明请访问<a href="http://A-limon.github.io/pacman/hello/introducing-pacman-theme/">这里</a></p>
+<h2 id="Installation">Installation</h2>
+<h3 id="Install">Install</h3>
+<pre><code>$ git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/A-limon/pacman.git themes/pacman
+</code></pre><p><strong>Pacman requires Hexo 2.4.5 and above.</strong> </p>
+<h3 id="Enable">Enable</h3>
+<p>Modify <code>theme</code> setting in blog folder<code>_config.yml</code> to <code>pacman</code>.</p>
+<h3 id="Update">Update</h3>
+<pre><code><span class="built_in">cd</span> themes/pacman
+git pull
+</code></pre><p><strong>please backup your <code>_config.yml</code> file before update.</strong> </p>
+<h2 id="Configuration">Configuration</h2>
+<p>Modify settings in  <code>/themes/pacman/_config.yml</code>.</p>
+<pre><code><span class="comment">##### Menu</span>
+menu:
+  Home: /
+  Archives: /archives
+<span class="comment">## you can create `tags` and `categories` folders in `../source`.</span>
+<span class="comment">## And create a `index.md` file in each of them.</span>
+<span class="comment">## set `front-matter`as</span>
+<span class="comment">## layout: tags (or categories)</span>
+<span class="comment">## title: tags (or categories)</span>
+<span class="comment">## ---</span>
+
+<span class="comment">#### Widgets</span>
+widgets: 
+- category
+- tag
+- rss
+<span class="comment">## provide six widgets:category,tag,rss,archive,tagcloud,links.</span>
+<span class="comment">## modify links in `/layout/_widget/links.ejs`.</span>
+
+<span class="comment">#### RSS</span>
+rss: <span class="comment">## RSS address.</span>
+
+<span class="comment">#### Image</span>
+imglogo:
+  enable: <span class="constant">true</span>             <span class="comment">## display image logo true/false.</span>
+  src: img/logo.svg        <span class="comment">## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.</span>
+favicon: img/favicon.ico   <span class="comment">## size:16px*16px,`.ico` is recommended,please put image into the theme folder `/pacman/source/img`.     </span>
+apple_icon: img/pacman.jpg <span class="comment">## size:64px*64px,please put image into the theme folder `/pacman/source/img`.</span>
+
+<span class="comment">#### Author Avatar Picture</span>
+author_img_enable: <span class="constant">true</span> <span class="comment">## display author avatar picture</span>
+dataURI: <span class="constant">false</span>
+<span class="comment">## if the picture's format is dataURI please set the value to true,otherwise set the value to false.</span>
+<span class="comment">## convert an image into base 64 data URIs http://websemantics.co.uk/online_tools/image_to_data_uri_convertor/ .</span>
+author_img_data: ''
+<span class="comment">## paste the dataURI in ONE LINE and included it by ''.</span>
+author_img: img/author.jpg <span class="comment">## size:220px*220px.</span>
+<span class="comment">## if the picture's format is `.png` or `.jpg`  instead of dataURI,you should set the `dataURI` value to false.</span>
+
+<span class="comment">#### Font</span>
+ShowCustomFont: <span class="constant">true</span>  
+<span class="comment">## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/pacman/source/css`.</span>
+
+<span class="comment">#### Toc</span>
+toc:
+  article: <span class="constant">true</span>   <span class="comment">## show contents in article.</span>
+  aside: <span class="constant">true</span>     <span class="comment">## show contents in aside.</span>
+<span class="comment">## you can set both of the value to true of neither of them.</span>
+<span class="comment">## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.</span>
+
+<span class="comment">#### Fancybox</span>
+fancybox: <span class="constant">false</span> 
+<span class="comment">## if you use gallery post or want use fancybox please set the value to true.</span>
+<span class="comment">## if you want use fancybox in ANY post please copy the file `fancybox.js`.</span>
+<span class="comment">## in theme folder `/pacman/scripts` to your hexo blog folder `../scritps`.</span>
+
+<span class="comment">#### Author information</span>
+author:
+  google_plus:    <span class="comment">## eg:116338260303228776998 for https://plus.google.com/u/0/116338260303228776998</span>
+  intro_line1: <span class="string">""</span> <span class="comment">## eg: "Hello ,I'm Larry Page in Google."</span>
+  intro_line2: <span class="string">""</span> <span class="comment">## eg: "This is my blog,believe it or not."</span>
+  weibo:      <span class="comment">## e.g. 436062867 for http://weibo.com/436062867</span>
+  twitter:    <span class="comment">## e.g. yangjiansky for https://twitter.com/yangjiansky</span>
+  github:     <span class="comment">## e.g. A-limon for https://github.com/A-limon</span>
+  facebook:   <span class="comment">## e.g. yangjian for https://favebook.com/yangjian</span>
+  tsina:      <span class="comment">## e.g. 1664838973  Your weibo ID,It will be used in share button.</span>
+
+<span class="comment">#### Comment</span>
+duoshuo: 
+  enable: <span class="constant">false</span>  <span class="comment">## duoshuo.com</span>
+  short_name:    <span class="comment">## duoshuo short name.</span>
+
+<span class="comment">#### Share button</span>
+jiathis:
+  enable: <span class="constant">false</span> <span class="comment">## if you use jiathis as your share tool,the built-in share tool won't be display.</span>
+  <span class="property">id</span>:    <span class="comment">## e.g. 1501277 your jiathis ID. </span>
+  tsina: <span class="comment">## e.g. 1664838973 Your weibo id,It will be used in share button.</span>
+
+<span class="comment">#### Analytics</span>
+google_analytics:
+  enable: <span class="constant">false</span>
+  <span class="property">id</span>:   <span class="comment">## e.g. UA-1766729-8 your google analytics ID.</span>
+  site: <span class="comment">## e.g. yangjian.me your google analytics site or set the value as auto.</span>
+<span class="comment">## You MUST upgrade to Universal Analytics first!</span>
+<span class="comment">## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN</span>
+
+<span class="comment">#### Custom Search</span>
+google_cse: 
+  enable: <span class="constant">false</span>
+  cx:  <span class="comment">## e.g. 000561263943549425496:mrzrm0gr4kg your Custom Search ID.</span>
+<span class="comment">## https://www.google.com/cse/</span>
+</code></pre><p><a href="https://bitdeli.com/free" title="Bitdeli Badge"><img src="https://d2weczhvl823v0.cloudfront.net/A-limon/pacman/trend.png" alt="Bitdeli Badge"></a></p>
